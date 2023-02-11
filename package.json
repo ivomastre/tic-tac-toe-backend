@@ -25,6 +25,6 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
-    "start:prod": "node dist/server.js"
+    "start": "node dist/server.js"
   }
 }
