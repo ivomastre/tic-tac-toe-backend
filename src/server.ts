@@ -137,4 +137,4 @@ setInterval(() => {
 const PORT = +process.env.PORT || 9000;
 
 io.listen(PORT);
-console.log("Server started 🚀");
+console.log("Server started 🚀 on port: " + PORT);
