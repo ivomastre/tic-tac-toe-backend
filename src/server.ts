@@ -91,8 +91,9 @@ io.on("connect", (socket) => {
 // match making
 setInterval(() => {
   const keys = Object.keys(matchMakingQueue);
-  console.log(keys);
   if (keys.length > 1) {
+    console.log(keys);
+
     const player1 = matchMakingQueue[keys[0]];
     const player2 = matchMakingQueue[keys[1]];
 
